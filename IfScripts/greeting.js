@@ -1,5 +1,5 @@
-var currentHours = 20;
-var ampm = 'PM';
+var currentHours = 11;
+var ampm = 'AM';
 
 
 if(currentHours <= 10 && ampm == 'AM') {
@@ -14,3 +14,4 @@ else if(currentHours < 17 && ampm == 'PM') {
 else{
     console.log('Good evening!');
 }
+
